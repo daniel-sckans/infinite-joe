@@ -1,0 +1,57 @@
+* {
+    background-color:mediumpurple;
+    color:white;
+    font-size: 24px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+    margin:0;
+}
+img {
+    width: 100vw;
+    height: 500px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.choir {
+    color: #ff0000;
+    background-color:azure ;
+}
+.room {
+    color:#ff00ff;
+    background-color: bisque;
+}
+
+.footer::after{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    left:0;
+    height: 100px;
+    text-align: center;
+    content: 'Ⓒ 2022 Joseph Kasongo';
+    background-color: #201c1c;
+    color:#fff;
+}
+
+.brand::before{
+    display:block;
+    width: 50%;
+    content: 'Munel-Fly';
+    height:100px;
+    text-align: center;
+    background-color: #27867e;
+    color:#f4f2f1;
+}
+
+.desc{
+    padding: 50px;
+    margin: 32px;
+    margin:32px;
+}
