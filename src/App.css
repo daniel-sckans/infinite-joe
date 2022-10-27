@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+:root{
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.nav {
+  background-color: #fbf;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav a {
+  height:3rem;
+
+  border:5px solid #0df;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
