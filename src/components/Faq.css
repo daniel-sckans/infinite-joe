@@ -1,0 +1,20 @@
+.faq{
+  padding: 70px;
+  text-align: center;
+  background-image: linear-gradient(to right, #D3D3D3,#2D3436);
+  width: 100vw;
+  height: 788px;
+}
+.faq h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0, 0.4);
+}
+.faq ul{
+    margin-top: 3rem;
+    list-style-type: none;
+}
+.faq ul li{
+    line-height: 4rem;
+    font-size: 20px;
+    font-weight: bold;
+}

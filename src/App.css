@@ -47,19 +47,43 @@
   box-sizing: border-box;
   margin:0;
   padding:0;
+  /* background-color: #BEBEBE; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nav {
-  background-color: #fbf;
-
+  background-color:#989898;
+  padding: 3px 2px 10px 2px;
   display: flex;
   justify-content: space-evenly;
 }
 .nav a {
   height:3rem;
-
-  border:5px solid #0df;
+  width: 10rem;
+  border:3px solid 	#606060;
+  background-color:	rgb(136,136,136);
+  color: #fff;
+  text-transform:uppercase;
+  font-weight: bold;
+  text-decoration: none;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.nav a:hover{
+  background-color:	#fff;
+  color: #000;
+}
+
+.home, .account{
+  width: 100vw;
+  height: 788px;
+  text-align: center;
+  background-image: linear-gradient(to right, #D3D3D3,#2D3436);
+  
+}
+.home h1, .account h1{
+  font-size: 60px;
+  color: rgb(0, 0, 0, 0.4);
+  padding: 5rem;
 }

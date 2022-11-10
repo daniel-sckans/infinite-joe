@@ -1,15 +1,18 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 
 const Contact = () => {
+    let params = useParams();
+
     return(
         <div>
-            You can connect with us at:
+            Team member: { params.person } <br />
             <ul>
                 <li>
-                    0000111112222
+                    Phone Number: 0000111112222
                 </li>
                 <li>
-                    emaildot.com
+                    Email Address: emaildot.com
                 </li>
             </ul>
         </div>
